@@ -8,14 +8,16 @@ public class TeleportationManager : MonoBehaviour
 {
     [SerializeField] private InputActionAsset actionAsset;
     [SerializeField] private XRRayInteractor rayInteractor;
+    [SerializeField] private new Transform camera;
+
     private InputAction thumbstick;
     private bool isActive;
     private Vector2 thumbstickDirection;
     private TeleportationProvider teleportationProvider;
-    private new Transform camera;
+
     void Start()
     {
-        rayInteractor.enabled = true;
+        TurnOffTeleport();
 
         teleportationProvider = GetComponent<TeleportationProvider>();
 
