@@ -22,9 +22,15 @@ public class Timer : MonoBehaviour
         seconds = (int)currentTime % 60;
         countdownText.text = minutes.ToString("00") +":"+ seconds.ToString("00");
 
+        if (currentTime <= startingTime/2)
+        {
+            //half time mark
+        }
+
         if (currentTime <= 0)
         {
             currentTime = 0;
+            //call function to end game or something
         }
     }
 }
