@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637579331431104081
-    m_Hash: 4144310221
+      ticks: 637889568191876001
+    m_Hash: 1640273394
   m_LockFileStatus:
     m_FilePath: C:/Users/modea/Documents/Projects/Find Yourself/Find Yourself/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637579331431197540
-    m_Hash: 2134301554
+      ticks: 637889568192045990
+    m_Hash: 3354667517
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -59,7 +59,36 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.4.9
         - 1.5.7
+        - 1.6.0
+        - 1.7.1
+        - 1.8.0
+        - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
+        - 1.14.1
+        - 1.14.4
+        - 1.14.7
+        - 1.14.9
+        - 1.14.12
+        - 1.14.13
+        - 1.14.15
+        - 1.14.16
+        - 1.14.17
+        - 1.14.18
+        - 1.15.1
+        - 1.15.4
+        - 1.15.7
+        - 1.15.9
+        - 1.15.12
+        - 1.15.13
+        - 1.15.15
+        - 1.15.16
+        - 1.15.17
+        - 1.15.18
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -72,7 +101,22 @@ m_PackageAssets:
         - 2.1.0-preview.6
         compatible:
         - 1.3.9
+        - 1.4.9
         - 1.5.7
+        - 1.6.0
+        - 1.8.0
+        - 1.10.2
+        - 1.12.5
+        - 1.14.1
+        - 1.14.4
+        - 1.14.7
+        - 1.14.9
+        - 1.14.12
+        - 1.14.13
+        - 1.14.15
+        - 1.14.16
+        - 1.14.17
+        - 1.14.18
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -116,6 +160,70 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
         revision: fa825106f349f996acff22f718845eab46ca2d7c
+        path: 
+    - packageId: com.unity.editorcoroutines@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 1
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+      assetPath: Packages/com.unity.editorcoroutines
+      name: com.unity.editorcoroutines
+      displayName: Editor Coroutines
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'The editor coroutines package allows developers to start constructs
+        similar to Unity''s monobehaviour based coroutines within the editor using
+        abitrary objects. '
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.1-preview.3
+        - 0.0.1-preview.4
+        - 0.0.1-preview.5
+        - 0.0.2-preview.1
+        - 0.1.0-preview.1
+        - 0.1.0-preview.2
+        - 1.0.0
+        compatible:
+        - 0.0.1-preview.3
+        - 0.0.1-preview.4
+        - 0.0.1-preview.5
+        - 0.0.2-preview.1
+        - 0.1.0-preview.1
+        - 0.1.0-preview.2
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - coroutine
+      - coroutines
+      - editor
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637232611380000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+        revision: f67fc9992bbc7a553b17375de53a8b2db136528e
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
@@ -164,6 +272,11 @@ m_PackageAssets:
         - 3.0.5
         - 3.0.6
         - 3.0.7
+        - 3.0.9
+        - 3.0.10
+        - 3.0.12
+        - 3.0.13
+        - 3.0.14
         compatible:
         - 1.0.2
         - 1.0.6
@@ -190,6 +303,11 @@ m_PackageAssets:
         - 3.0.5
         - 3.0.6
         - 3.0.7
+        - 3.0.9
+        - 3.0.10
+        - 3.0.12
+        - 3.0.13
+        - 3.0.14
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -224,12 +342,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.7
+    - packageId: com.unity.ide.visualstudio@2.0.15
       testable: 0
       isDirectDependency: 1
-      version: 2.0.7
+      version: 2.0.15
       source: 1
-      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -259,6 +377,11 @@ m_PackageAssets:
         - 2.0.5
         - 2.0.7
         - 2.0.8
+        - 2.0.9
+        - 2.0.11
+        - 2.0.12
+        - 2.0.14
+        - 2.0.15
         compatible:
         - 1.0.2
         - 1.0.3
@@ -273,7 +396,12 @@ m_PackageAssets:
         - 2.0.5
         - 2.0.7
         - 2.0.8
-        verified: 2.0.8
+        - 2.0.9
+        - 2.0.11
+        - 2.0.12
+        - 2.0.14
+        - 2.0.15
+        verified: 2.0.15
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -299,13 +427,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486638490000000
+      datePublishedTicks: 637841884840000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: dec282022c7a95fada560c36f53da9dd155a142c
+        revision: ca1ece42f5a2c5484ba15a15bb975ccc1f6a1a3c
         path: 
     - packageId: com.unity.ide.vscode@1.2.3
       testable: 0
@@ -340,6 +468,8 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
+        - 1.2.4
+        - 1.2.5
         compatible:
         - 1.0.2
         - 1.0.3
@@ -352,7 +482,9 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
-        verified: 1.2.3
+        - 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -417,6 +549,8 @@ m_PackageAssets:
         - 7.5.2
         - 7.5.3
         - 7.6.0
+        - 7.7.0
+        - 7.7.1
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -434,9 +568,16 @@ m_PackageAssets:
         - 10.3.2
         - 10.4.0
         - 10.5.0
+        - 10.5.1
+        - 10.6.0
+        - 10.7.0
+        - 10.8.0
+        - 10.8.1
+        - 10.9.0
         compatible:
         - 10.5.0
-        verified: 10.5.0
+        - 10.5.1
+        verified: 10.5.1
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
@@ -535,10 +676,24 @@ m_PackageAssets:
         - 1.1.22
         - 1.1.24
         - 1.1.26
+        - 1.1.27
+        - 1.1.29
+        - 1.1.30
+        - 1.1.31
+        - 2.0.1-exp.1
+        - 2.0.1-pre.12
+        - 2.0.1-pre.18
         compatible:
         - 1.1.24
         - 1.1.26
-        verified: 1.1.26
+        - 1.1.27
+        - 1.1.29
+        - 1.1.30
+        - 1.1.31
+        - 2.0.1-exp.1
+        - 2.0.1-pre.12
+        - 2.0.1-pre.18
+        verified: 1.1.31
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -654,6 +809,7 @@ m_PackageAssets:
         - 1.5.4
         - 1.5.5
         - 1.5.6
+        - 1.6.0-preview.1
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -675,6 +831,9 @@ m_PackageAssets:
         - 2.1.4
         - 2.1.5
         - 2.1.6
+        - 2.2.0-preview.1
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -692,8 +851,15 @@ m_PackageAssets:
         - 3.0.4
         - 3.0.5
         - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 3.2.0-pre.3
+        - 4.0.0-pre.1
         compatible:
         - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 3.2.0-pre.3
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -810,10 +976,20 @@ m_PackageAssets:
         - 1.5.2
         - 1.5.4
         - 1.5.5
+        - 1.5.6
+        - 1.5.7
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
         - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.7.0-pre.1
+        - 1.7.0-pre.2
+        - 1.7.0
+        - 1.7.1
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -828,10 +1004,20 @@ m_PackageAssets:
         - 1.5.2
         - 1.5.4
         - 1.5.5
+        - 1.5.6
+        - 1.5.7
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
         - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.7.0-pre.1
+        - 1.7.0-pre.2
+        - 1.7.0
+        - 1.7.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -940,12 +1126,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.xr.interaction.toolkit@1.0.0-pre.4
+    - packageId: com.unity.xr.interaction.toolkit@2.0.2
       testable: 0
       isDirectDependency: 1
-      version: 1.0.0-pre.4
+      version: 2.0.2
       source: 1
-      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\com.unity.xr.interaction.toolkit@1.0.0-pre.4
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2
       assetPath: Packages/com.unity.xr.interaction.toolkit
       name: com.unity.xr.interaction.toolkit
       displayName: XR Interaction Toolkit
@@ -959,9 +1145,8 @@ m_PackageAssets:
         VR and AR experiences. It provides a framework that makes 3D and UI interactions
         available from Unity input events. The core of this system is a set of base
         Interactor and Interactable components, and an Interaction Manager that ties
-        these two types of components together. It also contains helper components
-        that you can use to extend functionality for drawing visuals and hooking
-        in your own interaction events.
+        these two types of components together. It also contains components that
+        you can use for locomotion and drawing visuals.
       status: 4
       errors: []
       versions:
@@ -977,6 +1162,16 @@ m_PackageAssets:
         - 1.0.0-pre.2
         - 1.0.0-pre.3
         - 1.0.0-pre.4
+        - 1.0.0-pre.5
+        - 1.0.0-pre.6
+        - 1.0.0-pre.8
+        - 2.0.0-pre.5
+        - 2.0.0-pre.6
+        - 2.0.0-pre.7
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0-pre.1
         compatible:
         - 0.0.6-preview
         - 0.9.0-preview
@@ -989,34 +1184,60 @@ m_PackageAssets:
         - 1.0.0-pre.2
         - 1.0.0-pre.3
         - 1.0.0-pre.4
+        - 1.0.0-pre.5
+        - 1.0.0-pre.6
+        - 1.0.0-pre.8
+        - 2.0.0-pre.5
+        - 2.0.0-pre.6
+        - 2.0.0-pre.7
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0-pre.1
         verified: 
       dependencies:
       - name: com.unity.inputsystem
-        version: 1.0.2
+        version: 1.2.0
       - name: com.unity.ugui
         version: 1.0.0
+      - name: com.unity.xr.core-utils
+        version: 2.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
+        version: 2.1.8
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
       resolvedDependencies:
       - name: com.unity.inputsystem
-        version: 1.0.2
-      - name: com.unity.ugui
+        version: 1.2.0
+      - name: com.unity.modules.uielements
         version: 1.0.0
       - name: com.unity.modules.ui
         version: 1.0.0
       - name: com.unity.modules.imgui
         version: 1.0.0
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.modules.vr
-        version: 1.0.0
       - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.uielementsnative
+        version: 1.0.0
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.xr.core-utils
+        version: 2.0.0
+      - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.modules.physics
         version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
       - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.8
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.audio
         version: 1.0.0
       keywords:
       - XR
@@ -1035,13 +1256,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637569811150000000
+      datePublishedTicks: 637874566830000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
-        revision: ce29e6f82e35cdca8ca8bbc4a5a3393c1aa2b919
+        url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
+        revision: de6c9c113846c3ca4449d0285a4683bb9c87855e
         path: 
     - packageId: com.unity.xr.oculus@1.9.1
       testable: 0
@@ -1104,10 +1325,33 @@ m_PackageAssets:
         - 1.9.0
         - 1.9.1
         - 1.10.0-preview.1
+        - 1.10.0-preview.2
+        - 1.10.0
+        - 1.10.1-preview.3
+        - 1.11.0
+        - 1.11.2
+        - 1.12.0
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0-preview.4
+        - 2.0.0-preview.5
+        - 3.0.0-pre.1
+        - 3.0.0-pre.2
+        - 3.0.0-pre.4
+        - 3.0.0
+        - 3.0.1
         compatible:
         - 1.9.0
         - 1.9.1
         - 1.10.0-preview.1
+        - 1.10.0-preview.2
+        - 1.10.0
+        - 1.10.1-preview.3
+        - 1.11.0
+        - 1.11.2
+        - 1.12.0
+        - 2.0.0-preview.2
+        - 3.0.0-pre.2
         verified: 1.9.1
       dependencies:
       - name: com.unity.xr.management
@@ -1128,7 +1372,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
+        version: 2.1.8
       - name: com.unity.subsystemregistration
         version: 1.0.6
       - name: com.unity.ugui
@@ -1164,6 +1408,970 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
         revision: 55b70323e1ab2aefa33ac785aa17022e0e9b4ad1
+        path: 
+    - packageId: io.extendreality.tilia.camerarigs.trackedalias.unity@2.0.3
+      testable: 0
+      isDirectDependency: 1
+      version: 2.0.3
+      source: 1
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\io.extendreality.tilia.camerarigs.trackedalias.unity@2.0.3
+      assetPath: Packages/io.extendreality.tilia.camerarigs.trackedalias.unity
+      name: io.extendreality.tilia.camerarigs.trackedalias.unity
+      displayName: Tilia CameraRigs TrackedAlias Unity
+      author:
+        name: Extend Reality Ltd
+        email: hello@extendreality.io
+        url: https://github.com/ExtendRealityLtd
+      category: 
+      type: 
+      description: A Tracked Alias prefab providing generic aliases to the active
+        camera rig prefab for the Unity software.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.0.7
+        - 1.0.8
+        - 1.0.9
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.1.5
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.3.0
+        - 1.3.1
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
+        - 1.5.0
+        - 1.5.1
+        - 1.5.2
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.5.8
+        - 1.5.9
+        - 1.5.10
+        - 1.6.0
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.6.6
+        - 1.6.7
+        - 1.6.8
+        - 1.6.9
+        - 1.6.10
+        - 1.6.11
+        - 1.6.12
+        - 1.6.13
+        - 1.6.14
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        - 1.9.0
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        compatible:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.0.7
+        - 1.0.8
+        - 1.0.9
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.1.5
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.3.0
+        - 1.3.1
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
+        - 1.5.0
+        - 1.5.1
+        - 1.5.2
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.5.8
+        - 1.5.9
+        - 1.5.10
+        - 1.6.0
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.6.6
+        - 1.6.7
+        - 1.6.8
+        - 1.6.9
+        - 1.6.10
+        - 1.6.11
+        - 1.6.12
+        - 1.6.13
+        - 1.6.14
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        - 1.9.0
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        verified: 
+      dependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      resolvedDependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      keywords:
+      - pattern
+      - camerarig
+      - tracked
+      - alias
+      - vr
+      - ar
+      - xr
+      - spatial
+      registry:
+        id: scoped:npmjs
+        name: npmjs
+        url: https://registry.npmjs.org
+        scopes:
+        - io.extendreality
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637886284125790000
+      documentationUrl: https://github.com/ExtendRealityLtd/Tilia.CameraRigs.TrackedAlias.Unity/tree/master/Documentation
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/ExtendRealityLtd/Tilia.CameraRigs.TrackedAlias.Unity.git
+        revision: 
+        path: 
+    - packageId: io.extendreality.tilia.interactions.snapzone.unity@2.1.9
+      testable: 0
+      isDirectDependency: 1
+      version: 2.1.9
+      source: 1
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\io.extendreality.tilia.interactions.snapzone.unity@2.1.9
+      assetPath: Packages/io.extendreality.tilia.interactions.snapzone.unity
+      name: io.extendreality.tilia.interactions.snapzone.unity
+      displayName: Tilia Interactions SnapZone Unity
+      author:
+        name: Extend Reality Ltd
+        email: hello@extendreality.io
+        url: https://github.com/ExtendRealityLtd
+      category: 
+      type: 
+      description: A spatial zone in which an interactable object can be snapped
+        into the designated area for the Unity software.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.0.7
+        - 1.0.8
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 1.0.12
+        - 1.0.13
+        - 1.0.14
+        - 1.0.15
+        - 1.0.16
+        - 1.0.17
+        - 1.0.18
+        - 1.0.19
+        - 1.0.20
+        - 1.0.21
+        - 1.0.22
+        - 1.0.23
+        - 1.0.24
+        - 1.0.25
+        - 1.0.26
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.1.5
+        - 1.1.6
+        - 1.1.7
+        - 1.1.8
+        - 1.1.9
+        - 1.1.10
+        - 1.1.11
+        - 1.1.12
+        - 1.1.13
+        - 1.1.14
+        - 1.1.15
+        - 1.1.16
+        - 1.1.17
+        - 1.1.18
+        - 1.1.19
+        - 1.1.20
+        - 1.1.21
+        - 1.1.22
+        - 1.1.23
+        - 1.1.24
+        - 1.1.25
+        - 1.1.26
+        - 1.1.27
+        - 1.1.28
+        - 1.1.29
+        - 1.1.30
+        - 1.1.31
+        - 1.1.32
+        - 1.1.33
+        - 1.1.34
+        - 1.1.35
+        - 1.1.36
+        - 1.1.37
+        - 1.1.38
+        - 1.1.39
+        - 1.1.40
+        - 1.1.41
+        - 1.1.42
+        - 1.1.43
+        - 1.1.44
+        - 1.1.45
+        - 1.1.46
+        - 1.1.47
+        - 1.1.48
+        - 1.1.49
+        - 1.1.50
+        - 1.1.51
+        - 1.1.52
+        - 1.1.53
+        - 1.1.54
+        - 1.1.55
+        - 1.1.56
+        - 1.1.57
+        - 1.1.58
+        - 1.1.59
+        - 1.1.60
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
+        - 1.5.0
+        - 1.5.1
+        - 1.5.2
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.5.8
+        - 1.5.9
+        - 1.5.10
+        - 1.5.11
+        - 1.5.12
+        - 1.5.13
+        - 1.5.14
+        - 1.5.15
+        - 1.5.16
+        - 1.5.17
+        - 1.5.18
+        - 1.5.19
+        - 1.5.20
+        - 1.5.21
+        - 1.5.22
+        - 1.5.23
+        - 1.5.24
+        - 1.5.25
+        - 1.5.26
+        - 1.5.27
+        - 1.5.28
+        - 1.5.29
+        - 1.5.30
+        - 1.5.31
+        - 1.5.32
+        - 1.5.33
+        - 1.5.34
+        - 1.5.35
+        - 1.5.36
+        - 1.5.37
+        - 1.5.38
+        - 1.5.39
+        - 1.5.40
+        - 1.6.0
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.1.7
+        - 2.1.8
+        - 2.1.9
+        compatible:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.0.7
+        - 1.0.8
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 1.0.12
+        - 1.0.13
+        - 1.0.14
+        - 1.0.15
+        - 1.0.16
+        - 1.0.17
+        - 1.0.18
+        - 1.0.19
+        - 1.0.20
+        - 1.0.21
+        - 1.0.22
+        - 1.0.23
+        - 1.0.24
+        - 1.0.25
+        - 1.0.26
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.1.5
+        - 1.1.6
+        - 1.1.7
+        - 1.1.8
+        - 1.1.9
+        - 1.1.10
+        - 1.1.11
+        - 1.1.12
+        - 1.1.13
+        - 1.1.14
+        - 1.1.15
+        - 1.1.16
+        - 1.1.17
+        - 1.1.18
+        - 1.1.19
+        - 1.1.20
+        - 1.1.21
+        - 1.1.22
+        - 1.1.23
+        - 1.1.24
+        - 1.1.25
+        - 1.1.26
+        - 1.1.27
+        - 1.1.28
+        - 1.1.29
+        - 1.1.30
+        - 1.1.31
+        - 1.1.32
+        - 1.1.33
+        - 1.1.34
+        - 1.1.35
+        - 1.1.36
+        - 1.1.37
+        - 1.1.38
+        - 1.1.39
+        - 1.1.40
+        - 1.1.41
+        - 1.1.42
+        - 1.1.43
+        - 1.1.44
+        - 1.1.45
+        - 1.1.46
+        - 1.1.47
+        - 1.1.48
+        - 1.1.49
+        - 1.1.50
+        - 1.1.51
+        - 1.1.52
+        - 1.1.53
+        - 1.1.54
+        - 1.1.55
+        - 1.1.56
+        - 1.1.57
+        - 1.1.58
+        - 1.1.59
+        - 1.1.60
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
+        - 1.5.0
+        - 1.5.1
+        - 1.5.2
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.5.8
+        - 1.5.9
+        - 1.5.10
+        - 1.5.11
+        - 1.5.12
+        - 1.5.13
+        - 1.5.14
+        - 1.5.15
+        - 1.5.16
+        - 1.5.17
+        - 1.5.18
+        - 1.5.19
+        - 1.5.20
+        - 1.5.21
+        - 1.5.22
+        - 1.5.23
+        - 1.5.24
+        - 1.5.25
+        - 1.5.26
+        - 1.5.27
+        - 1.5.28
+        - 1.5.29
+        - 1.5.30
+        - 1.5.31
+        - 1.5.32
+        - 1.5.33
+        - 1.5.34
+        - 1.5.35
+        - 1.5.36
+        - 1.5.37
+        - 1.5.38
+        - 1.5.39
+        - 1.5.40
+        - 1.6.0
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.1.7
+        - 2.1.8
+        - 2.1.9
+        verified: 
+      dependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      - name: io.extendreality.tilia.utilities.shaders.unity
+        version: 1.3.0
+      - name: io.extendreality.tilia.mutators.objectfollower.unity
+        version: 2.0.3
+      - name: io.extendreality.tilia.interactions.interactables.unity
+        version: 2.4.1
+      resolvedDependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      - name: io.extendreality.tilia.utilities.shaders.unity
+        version: 1.3.0
+      - name: io.extendreality.tilia.mutators.objectfollower.unity
+        version: 2.0.3
+      - name: io.extendreality.tilia.interactions.interactables.unity
+        version: 2.4.1
+      keywords:
+      - interactions
+      - snapzone
+      - snap
+      - dropzone
+      - socket
+      registry:
+        id: scoped:npmjs
+        name: npmjs
+        url: https://registry.npmjs.org
+        scopes:
+        - io.extendreality
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637886316614840000
+      documentationUrl: https://github.com/ExtendRealityLtd/Tilia.Interactions.SnapZone.Unity/tree/master/Documentation
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/ExtendRealityLtd/Tilia.Interactions.SnapZone.Unity.git
+        revision: 
+        path: 
+    - packageId: io.extendreality.tilia.locomotors.teleporter.unity@2.0.4
+      testable: 0
+      isDirectDependency: 1
+      version: 2.0.4
+      source: 1
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\io.extendreality.tilia.locomotors.teleporter.unity@2.0.4
+      assetPath: Packages/io.extendreality.tilia.locomotors.teleporter.unity
+      name: io.extendreality.tilia.locomotors.teleporter.unity
+      displayName: Tilia Locomotors Teleporter Unity
+      author:
+        name: Extend Reality Ltd
+        email: hello@extendreality.io
+        url: https://github.com/ExtendRealityLtd
+      category: 
+      type: 
+      description: A collection of prefabs that can move a given GameObject to a
+        specific point in space for the Unity software.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.1.5
+        - 1.1.6
+        - 1.2.0
+        - 1.2.1
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.3.10
+        - 1.4.0
+        - 1.5.0
+        - 1.5.1
+        - 1.5.2
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.6.0
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.6.6
+        - 1.6.7
+        - 1.6.8
+        - 1.6.9
+        - 1.6.10
+        - 1.6.11
+        - 1.6.12
+        - 1.6.13
+        - 1.6.14
+        - 1.6.15
+        - 1.6.16
+        - 1.6.17
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        compatible:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.1.5
+        - 1.1.6
+        - 1.2.0
+        - 1.2.1
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.3.10
+        - 1.4.0
+        - 1.5.0
+        - 1.5.1
+        - 1.5.2
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.6.0
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.6.6
+        - 1.6.7
+        - 1.6.8
+        - 1.6.9
+        - 1.6.10
+        - 1.6.11
+        - 1.6.12
+        - 1.6.13
+        - 1.6.14
+        - 1.6.15
+        - 1.6.16
+        - 1.6.17
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        verified: 
+      dependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      - name: io.extendreality.tilia.utilities.shaders.unity
+        version: 1.3.0
+      resolvedDependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      - name: io.extendreality.tilia.utilities.shaders.unity
+        version: 1.3.0
+      keywords:
+      - locomotion
+      - locomotor
+      - teleport
+      - teleporting
+      registry:
+        id: scoped:npmjs
+        name: npmjs
+        url: https://registry.npmjs.org
+        scopes:
+        - io.extendreality
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637886286817210000
+      documentationUrl: https://github.com/ExtendRealityLtd/Tilia.Locomotors.Teleporter.Unity/tree/master/Documentation
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/ExtendRealityLtd/Tilia.Locomotors.Teleporter.Unity.git
+        revision: 
+        path: 
+    - packageId: io.extendreality.tilia.sdk.oculusintegration.unity@2.0.3
+      testable: 0
+      isDirectDependency: 1
+      version: 2.0.3
+      source: 1
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\io.extendreality.tilia.sdk.oculusintegration.unity@2.0.3
+      assetPath: Packages/io.extendreality.tilia.sdk.oculusintegration.unity
+      name: io.extendreality.tilia.sdk.oculusintegration.unity
+      displayName: Tilia SDK OculusIntegration Unity
+      author:
+        name: Extend Reality Ltd
+        email: hello@extendreality.io
+        url: https://github.com/ExtendRealityLtd
+      category: 
+      type: 
+      description: SDK Wrappers for the Oculus Integration Unity asset.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.1.5
+        - 1.1.6
+        - 1.1.7
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.3.10
+        - 1.3.11
+        - 1.3.12
+        - 1.3.13
+        - 1.3.14
+        - 1.3.15
+        - 1.3.16
+        - 1.3.17
+        - 1.3.18
+        - 1.3.19
+        - 1.3.20
+        - 1.3.21
+        - 1.3.22
+        - 1.3.23
+        - 1.3.24
+        - 1.4.0
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        compatible:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.1.5
+        - 1.1.6
+        - 1.1.7
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.3.10
+        - 1.3.11
+        - 1.3.12
+        - 1.3.13
+        - 1.3.14
+        - 1.3.15
+        - 1.3.16
+        - 1.3.17
+        - 1.3.18
+        - 1.3.19
+        - 1.3.20
+        - 1.3.21
+        - 1.3.22
+        - 1.3.23
+        - 1.3.24
+        - 1.4.0
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        verified: 
+      dependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      resolvedDependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      keywords:
+      - sdk
+      - wrapper
+      registry:
+        id: scoped:npmjs
+        name: npmjs
+        url: https://registry.npmjs.org
+        scopes:
+        - io.extendreality
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637886288996520000
+      documentationUrl: https://github.com/ExtendRealityLtd/Tilia.SDK.OculusIntegration.Unity/tree/master/Documentation
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/ExtendRealityLtd/Tilia.SDK.OculusIntegration.Unity.git
+        revision: 
         path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
@@ -2907,6 +4115,666 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
+    - packageId: io.extendreality.zinnia.unity@2.2.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.2.0
+      source: 1
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\io.extendreality.zinnia.unity@2.2.0
+      assetPath: Packages/io.extendreality.zinnia.unity
+      name: io.extendreality.zinnia.unity
+      displayName: Zinnia.Unity
+      author:
+        name: Extend Reality Ltd
+        email: hello@extendreality.io
+        url: https://github.com/ExtendRealityLtd
+      category: 
+      type: 
+      description: A collection of design patterns for the Unity software that can
+        be beneficial in (but not limited to) spatial computing development.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.1.0
+        - 1.1.1
+        - 1.2.0
+        - 1.3.0
+        - 1.3.1
+        - 1.4.0
+        - 1.4.1
+        - 1.5.0
+        - 1.6.0
+        - 1.6.1
+        - 1.7.0
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        - 1.9.0
+        - 1.10.0
+        - 1.10.1
+        - 1.10.2
+        - 1.10.3
+        - 1.10.4
+        - 1.11.0
+        - 1.12.0
+        - 1.13.0
+        - 1.14.0
+        - 1.14.1
+        - 1.15.0
+        - 1.16.0
+        - 1.17.0
+        - 1.17.1
+        - 1.18.0
+        - 1.19.0
+        - 1.20.0
+        - 1.21.0
+        - 1.22.0
+        - 1.23.0
+        - 1.24.0
+        - 1.25.0
+        - 1.25.1
+        - 1.26.0
+        - 1.27.0
+        - 1.28.0
+        - 1.28.1
+        - 1.29.0
+        - 1.30.0
+        - 1.31.0
+        - 1.31.1
+        - 1.32.0
+        - 1.33.0
+        - 1.34.0
+        - 1.34.1
+        - 1.35.0
+        - 1.36.0
+        - 1.36.1
+        - 1.36.2
+        - 1.37.0
+        - 1.38.0
+        - 1.38.1
+        - 1.39.0
+        - 1.40.0
+        - 1.41.0
+        - 1.42.0
+        - 1.43.0
+        - 1.44.0
+        - 1.45.0
+        - 1.46.0
+        - 1.47.0
+        - 1.47.1
+        - 2.0.0
+        - 2.1.0
+        - 2.2.0
+        compatible:
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.1.0
+        - 1.1.1
+        - 1.2.0
+        - 1.3.0
+        - 1.3.1
+        - 1.4.0
+        - 1.4.1
+        - 1.5.0
+        - 1.6.0
+        - 1.6.1
+        - 1.7.0
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        - 1.9.0
+        - 1.10.0
+        - 1.10.1
+        - 1.10.2
+        - 1.10.3
+        - 1.10.4
+        - 1.11.0
+        - 1.12.0
+        - 1.13.0
+        - 1.14.0
+        - 1.14.1
+        - 1.15.0
+        - 1.16.0
+        - 1.17.0
+        - 1.17.1
+        - 1.18.0
+        - 1.19.0
+        - 1.20.0
+        - 1.21.0
+        - 1.22.0
+        - 1.23.0
+        - 1.24.0
+        - 1.25.0
+        - 1.25.1
+        - 1.26.0
+        - 1.27.0
+        - 1.28.0
+        - 1.28.1
+        - 1.29.0
+        - 1.30.0
+        - 1.31.0
+        - 1.31.1
+        - 1.32.0
+        - 1.33.0
+        - 1.34.0
+        - 1.34.1
+        - 1.35.0
+        - 1.36.0
+        - 1.36.1
+        - 1.36.2
+        - 1.37.0
+        - 1.38.0
+        - 1.38.1
+        - 1.39.0
+        - 1.40.0
+        - 1.41.0
+        - 1.42.0
+        - 1.43.0
+        - 1.44.0
+        - 1.45.0
+        - 1.46.0
+        - 1.47.0
+        - 1.47.1
+        - 2.0.0
+        - 2.1.0
+        - 2.2.0
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - pattern
+      - spatial
+      - xr
+      - vr
+      - ar
+      - mr
+      registry:
+        id: scoped:npmjs
+        name: npmjs
+        url: https://registry.npmjs.org
+        scopes:
+        - io.extendreality
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637886261052570000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/ExtendRealityLtd/Zinnia.Unity.git
+        revision: 
+        path: 
+    - packageId: io.extendreality.tilia.utilities.shaders.unity@1.3.0
+      testable: 0
+      isDirectDependency: 0
+      version: 1.3.0
+      source: 1
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\io.extendreality.tilia.utilities.shaders.unity@1.3.0
+      assetPath: Packages/io.extendreality.tilia.utilities.shaders.unity
+      name: io.extendreality.tilia.utilities.shaders.unity
+      displayName: Tilia Utilities Shaders Unity
+      author:
+        name: Extend Reality Ltd
+        email: hello@extendreality.io
+        url: https://github.com/ExtendRealityLtd
+      category: 
+      type: 
+      description: A collection of custom shaders for the Unity Software
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.1.0
+        - 1.2.0
+        - 1.3.0
+        compatible:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.1.0
+        - 1.2.0
+        - 1.3.0
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - shaders
+      registry:
+        id: scoped:npmjs
+        name: npmjs
+        url: https://registry.npmjs.org
+        scopes:
+        - io.extendreality
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637818186366310000
+      documentationUrl: https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/tree/master/Documentation
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity.git
+        revision: 
+        path: 
+    - packageId: io.extendreality.tilia.mutators.objectfollower.unity@2.0.3
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.3
+      source: 1
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\io.extendreality.tilia.mutators.objectfollower.unity@2.0.3
+      assetPath: Packages/io.extendreality.tilia.mutators.objectfollower.unity
+      name: io.extendreality.tilia.mutators.objectfollower.unity
+      displayName: Tilia Mutators ObjectFollower Unity
+      author:
+        name: Extend Reality Ltd
+        email: hello@extendreality.io
+        url: https://github.com/ExtendRealityLtd
+      category: 
+      type: 
+      description: A mechanism to make a target GameObject follow a source GameObject
+        in the scene for the Unity software.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.0.7
+        - 1.0.8
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 1.0.12
+        - 1.0.13
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.1.5
+        - 1.1.6
+        - 1.1.7
+        - 1.1.8
+        - 1.1.9
+        - 1.1.10
+        - 1.1.11
+        - 1.1.12
+        - 1.1.13
+        - 1.1.14
+        - 1.1.15
+        - 1.1.16
+        - 1.1.17
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.2.7
+        - 1.2.8
+        - 1.2.9
+        - 1.2.10
+        - 1.2.11
+        - 1.2.12
+        - 1.2.13
+        - 1.2.14
+        - 1.2.15
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        compatible:
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.0.7
+        - 1.0.8
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 1.0.12
+        - 1.0.13
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.1.5
+        - 1.1.6
+        - 1.1.7
+        - 1.1.8
+        - 1.1.9
+        - 1.1.10
+        - 1.1.11
+        - 1.1.12
+        - 1.1.13
+        - 1.1.14
+        - 1.1.15
+        - 1.1.16
+        - 1.1.17
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.2.7
+        - 1.2.8
+        - 1.2.9
+        - 1.2.10
+        - 1.2.11
+        - 1.2.12
+        - 1.2.13
+        - 1.2.14
+        - 1.2.15
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        verified: 
+      dependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      resolvedDependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      keywords:
+      - mutator
+      - follower
+      - object
+      registry:
+        id: scoped:npmjs
+        name: npmjs
+        url: https://registry.npmjs.org
+        scopes:
+        - io.extendreality
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637886287168790000
+      documentationUrl: https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/tree/master/Documentation
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity.git
+        revision: 
+        path: 
+    - packageId: io.extendreality.tilia.interactions.interactables.unity@2.4.1
+      testable: 0
+      isDirectDependency: 0
+      version: 2.4.1
+      source: 1
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\io.extendreality.tilia.interactions.interactables.unity@2.4.1
+      assetPath: Packages/io.extendreality.tilia.interactions.interactables.unity
+      name: io.extendreality.tilia.interactions.interactables.unity
+      displayName: Tilia Interactions Interactables Unity
+      author:
+        name: Extend Reality Ltd
+        email: hello@extendreality.io
+        url: https://github.com/ExtendRealityLtd
+      category: 
+      type: 
+      description: A variety of mechanisms for interacting between interactors and
+        interactables in a spatial scene for the Unity software.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.1.0
+        - 1.2.0
+        - 1.3.0
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0
+        - 1.6.1
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 1.7.3
+        - 1.7.4
+        - 1.8.0
+        - 1.8.1
+        - 1.9.0
+        - 1.10.0
+        - 1.10.1
+        - 1.11.0
+        - 1.11.1
+        - 1.12.0
+        - 1.12.1
+        - 1.12.2
+        - 1.13.0
+        - 1.13.1
+        - 1.13.2
+        - 1.13.3
+        - 1.13.4
+        - 1.14.0
+        - 1.14.1
+        - 1.14.2
+        - 1.14.3
+        - 1.14.4
+        - 1.15.0
+        - 1.15.1
+        - 1.15.2
+        - 1.15.3
+        - 1.15.4
+        - 1.15.5
+        - 1.15.6
+        - 1.15.7
+        - 1.15.8
+        - 1.15.9
+        - 1.15.10
+        - 1.15.11
+        - 1.16.0
+        - 1.16.1
+        - 1.16.2
+        - 1.17.0
+        - 1.17.1
+        - 1.17.2
+        - 1.18.0
+        - 1.19.0
+        - 1.19.1
+        - 1.19.2
+        - 1.19.3
+        - 1.19.4
+        - 1.20.0
+        - 1.20.1
+        - 1.20.2
+        - 1.21.0
+        - 1.21.1
+        - 1.22.0
+        - 1.22.1
+        - 1.22.2
+        - 1.22.3
+        - 1.22.4
+        - 1.22.5
+        - 1.22.6
+        - 1.22.7
+        - 1.22.8
+        - 1.22.9
+        - 1.23.0
+        - 1.24.0
+        - 1.24.1
+        - 1.24.2
+        - 2.0.0
+        - 2.0.1
+        - 2.1.0
+        - 2.1.1
+        - 2.2.0
+        - 2.3.0
+        - 2.4.0
+        - 2.4.1
+        compatible:
+        - 1.0.0
+        - 1.1.0
+        - 1.2.0
+        - 1.3.0
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0
+        - 1.6.1
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 1.7.3
+        - 1.7.4
+        - 1.8.0
+        - 1.8.1
+        - 1.9.0
+        - 1.10.0
+        - 1.10.1
+        - 1.11.0
+        - 1.11.1
+        - 1.12.0
+        - 1.12.1
+        - 1.12.2
+        - 1.13.0
+        - 1.13.1
+        - 1.13.2
+        - 1.13.3
+        - 1.13.4
+        - 1.14.0
+        - 1.14.1
+        - 1.14.2
+        - 1.14.3
+        - 1.14.4
+        - 1.15.0
+        - 1.15.1
+        - 1.15.2
+        - 1.15.3
+        - 1.15.4
+        - 1.15.5
+        - 1.15.6
+        - 1.15.7
+        - 1.15.8
+        - 1.15.9
+        - 1.15.10
+        - 1.15.11
+        - 1.16.0
+        - 1.16.1
+        - 1.16.2
+        - 1.17.0
+        - 1.17.1
+        - 1.17.2
+        - 1.18.0
+        - 1.19.0
+        - 1.19.1
+        - 1.19.2
+        - 1.19.3
+        - 1.19.4
+        - 1.20.0
+        - 1.20.1
+        - 1.20.2
+        - 1.21.0
+        - 1.21.1
+        - 1.22.0
+        - 1.22.1
+        - 1.22.2
+        - 1.22.3
+        - 1.22.4
+        - 1.22.5
+        - 1.22.6
+        - 1.22.7
+        - 1.22.8
+        - 1.22.9
+        - 1.23.0
+        - 1.24.0
+        - 1.24.1
+        - 1.24.2
+        - 2.0.0
+        - 2.0.1
+        - 2.1.0
+        - 2.1.1
+        - 2.2.0
+        - 2.3.0
+        - 2.4.0
+        - 2.4.1
+        verified: 
+      dependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      resolvedDependencies:
+      - name: io.extendreality.zinnia.unity
+        version: 2.2.0
+      keywords:
+      - interactions
+      - interactors
+      - interactables
+      registry:
+        id: scoped:npmjs
+        name: npmjs
+        url: https://registry.npmjs.org
+        scopes:
+        - io.extendreality
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637886286913640000
+      documentationUrl: https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity/tree/master/Documentation
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity.git
+        revision: 
+        path: 
     - packageId: com.unity.xr.management@4.0.1
       testable: 0
       isDirectDependency: 0
@@ -2971,11 +4839,25 @@ m_PackageAssets:
         - 4.0.1
         - 4.0.3
         - 4.0.5
+        - 4.0.6
+        - 4.0.7
+        - 4.1.0-pre.1
+        - 4.1.0-pre.2
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
         compatible:
         - 4.0.1
         - 4.0.3
         - 4.0.5
-        verified: 4.0.5
+        - 4.0.6
+        - 4.0.7
+        - 4.1.0-pre.1
+        - 4.1.0-pre.2
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
+        verified: 4.0.7
       dependencies:
       - name: com.unity.modules.subsystems
         version: 1.0.0
@@ -2999,7 +4881,7 @@ m_PackageAssets:
       - name: com.unity.modules.xr
         version: 1.0.0
       - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
+        version: 2.1.8
       - name: com.unity.subsystemregistration
         version: 1.0.6
       keywords:
@@ -3030,12 +4912,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
         revision: 7be7864c531ec05f0ba18503a2bb44684061e071
         path: 
-    - packageId: com.unity.inputsystem@1.0.2
+    - packageId: com.unity.inputsystem@1.2.0
       testable: 0
       isDirectDependency: 0
-      version: 1.0.2
+      version: 1.2.0
       source: 1
-      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\com.unity.inputsystem@1.0.2
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\com.unity.inputsystem@1.2.0
       assetPath: Packages/com.unity.inputsystem
       name: com.unity.inputsystem
       displayName: Input System
@@ -3076,9 +4958,13 @@ m_PackageAssets:
         - 1.0.1
         - 1.0.2
         - 1.1.0-pre.5
+        - 1.1.0-pre.6
         - 1.1.0-preview.1
         - 1.1.0-preview.2
         - 1.1.0-preview.3
+        - 1.1.1
+        - 1.2.0
+        - 1.3.0
         compatible:
         - 0.1.2-preview
         - 0.2.0-preview
@@ -3105,12 +4991,28 @@ m_PackageAssets:
         - 1.0.1
         - 1.0.2
         - 1.1.0-pre.5
+        - 1.1.0-pre.6
         - 1.1.0-preview.1
         - 1.1.0-preview.2
         - 1.1.0-preview.3
+        - 1.1.1
+        - 1.2.0
+        - 1.3.0
         verified: 1.0.2
-      dependencies: []
-      resolvedDependencies: []
+      dependencies:
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.uielementsnative
+        version: 1.0.0
       keywords:
       - input
       - events
@@ -3132,20 +5034,99 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637468486210000000
+      datePublishedTicks: 637714457070000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/InputSystem.git
-        revision: 041def76515febb36a83d1f928cfb7aefb85176c
+        url: https://github.com/Unity-Technologies/InputSystem.git
+        revision: 0343e557f75946cf6fad4be48dd10276d535f490
         path: 
-    - packageId: com.unity.xr.legacyinputhelpers@2.1.7
+    - packageId: com.unity.xr.core-utils@2.0.0
       testable: 0
       isDirectDependency: 0
-      version: 2.1.7
+      version: 2.0.0
       source: 1
-      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\com.unity.xr.core-utils@2.0.0
+      assetPath: Packages/com.unity.xr.core-utils
+      name: com.unity.xr.core-utils
+      displayName: XR Core Utilities
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "Common utility classes for XR projects\nRefer to API documentation
+        for details. Some particularly useful utilities include:\n\u25AA Geometry
+        Utilities\n  \u25AA Point of closest approach\n  \u25AA Closest edge of a
+        polygon\n  \u25AA Check if point inside of polygon\n  \u25AA Compute 2D convex
+        hull\n\u25AA Collection pool\n\u25AA Math Utilities\n  \u25AA Bounds extensions\n 
+        \u25AA Quaternion extensions\n\u25AA Editor GUI\n  \u25AA Flags Property
+        Drawer\n\u25AA Scriptable Settings (serialized project settings)\n\u25AA
+        Conditional Compilation Utility\n\u25AA XR Origin Implementation"
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.0-pre.3
+        - 2.0.0-pre.5
+        - 2.0.0-pre.6
+        - 2.0.0
+        - 2.1.0-pre.1
+        compatible:
+        - 2.0.0-pre.3
+        - 2.0.0-pre.5
+        - 2.0.0-pre.6
+        - 2.0.0
+        - 2.1.0-pre.1
+        verified: 
+      dependencies:
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      keywords:
+      - xr
+      - ar
+      - augmented
+      - reality
+      - utility
+      - utilities
+      - core
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637810557940000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
+        revision: 64e94d2afd538c154dd9f9fad875ef0afdc2ecd1
+        path: 
+    - packageId: com.unity.xr.legacyinputhelpers@2.1.8
+      testable: 0
+      isDirectDependency: 0
+      version: 2.1.8
+      source: 1
+      resolvedPath: C:\Users\modea\Documents\Projects\Find Yourself\Find Yourself\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
       assetPath: Packages/com.unity.xr.legacyinputhelpers
       name: com.unity.xr.legacyinputhelpers
       displayName: XR Legacy Input Helpers
@@ -3187,9 +5168,13 @@ m_PackageAssets:
         - 2.1.4
         - 2.1.6
         - 2.1.7
+        - 2.1.8
+        - 2.1.9
         compatible:
         - 2.1.7
-        verified: 2.1.7
+        - 2.1.8
+        - 2.1.9
+        verified: 2.1.9
       dependencies:
       - name: com.unity.modules.vr
         version: 1.0.0
@@ -3224,13 +5209,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637434003470000000
+      datePublishedTicks: 637623088970000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-        revision: b2024928b8140a10ad43aeb5824d2f08bb8796bc
+        revision: ed3b32c709a0e51cf73fda4b200c59b48955c4be
         path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
@@ -3259,6 +5244,7 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.5
         - 1.0.6
+        - 2.0.2
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
@@ -3266,6 +5252,7 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.5
         - 1.0.6
+        - 2.0.2
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -3328,6 +5315,9 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -3343,7 +5333,10 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        verified: 1.2.6
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3464,6 +5457,8 @@ m_PackageAssets:
         - 7.5.2
         - 7.5.3
         - 7.6.0
+        - 7.7.0
+        - 7.7.1
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -3482,9 +5477,16 @@ m_PackageAssets:
         - 10.3.2
         - 10.4.0
         - 10.5.0
+        - 10.5.1
+        - 10.6.0
+        - 10.7.0
+        - 10.8.0
+        - 10.8.1
+        - 10.9.0
         compatible:
         - 10.5.0
-        verified: 10.5.0
+        - 10.5.1
+        verified: 10.5.1
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -3610,6 +5612,8 @@ m_PackageAssets:
         - 7.5.2
         - 7.5.3
         - 7.6.0
+        - 7.7.0
+        - 7.7.1
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -3627,9 +5631,16 @@ m_PackageAssets:
         - 10.3.2
         - 10.4.0
         - 10.5.0
+        - 10.5.1
+        - 10.6.0
+        - 10.7.0
+        - 10.8.0
+        - 10.8.1
+        - 10.9.0
         compatible:
         - 10.5.0
-        verified: 10.5.0
+        - 10.5.1
+        verified: 10.5.1
       dependencies:
       - name: com.unity.render-pipelines.core
         version: 10.5.0
@@ -3693,10 +5704,12 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 1.1.0
+        - 1.1.1
         compatible:
         - 1.0.6
         - 1.1.0
-        verified: 1.1.0
+        - 1.1.1
+        verified: 1.1.1
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3758,6 +5771,8 @@ m_PackageAssets:
         - 4.3.2
         - 4.6.0-preview
         - 4.7.0-preview
+        - 4.9.1
+        - 4.9.2
         compatible:
         - 4.0.0-preview
         - 4.0.0
@@ -3773,6 +5788,8 @@ m_PackageAssets:
         - 4.3.2
         - 4.6.0-preview
         - 4.7.0-preview
+        - 4.9.1
+        - 4.9.2
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
